@@ -1,5 +1,8 @@
 # Living-Liquidz-Wine-and-beer-data-analysis
 
+![image](https://github.com/sarthak0613/Living-Liquidz-Wine---beer-data-analysis/assets/135547703/d5800f43-f123-44e5-825f-d82e025756ee)
+
+
 ### --Overview--
 
 Welcome to the Living Liquidz Wine & Beer Data Analysis GitHub repository! This project focuses on extracting and analyzing data related to wines and beers from the Living Liquidz website (https://livingliquidz.com/). Through web scraping, I have collected valuable information about alcoholic beverages(wine & beer) available on the website, and this repository contains the code and documentation for this data extraction and analysis process.
