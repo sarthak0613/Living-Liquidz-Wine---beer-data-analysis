@@ -20,11 +20,35 @@ Living Liquidz is a well-known platform for wine and beer enthusiasts, offering 
 - I used web scraping tools, such as Beautiful Soup and Requests in Python, to extract product details. This includes product names, prices, descriptions, ratings, and more.
 - The website has multiple pages of products, so i implemented pagination handling to collect data from all available pages.
 - Extracted data was stored in structured formats like CSV for further analysis.
-- Code snippet
-  ![image](https://github.com/sarthak0613/Living-Liquidz-Wine---beer-data-analysis/assets/135547703/56a79503-1a2d-433e-b905-26639201e1d5)
+#### Code snippet
 
-  
-  ![image](https://github.com/sarthak0613/Living-Liquidz-Wine---beer-data-analysis/assets/135547703/11aae8cf-2989-48e5-ab14-65a4976b772e)
+- This Python script scrapes information about wine products from a specific webpage using BeautifulSoup.
+- It extracts data like wine names, bottle sizes, and MRP, storing it in lists and then creating a Pandas DataFrame to organize the collected information.
+![image](https://github.com/sarthak0613/Living-Liquidz-Wine---beer-data-analysis/assets/135547703/6efca6ce-eec0-4cb9-bf50-54e48d7a31f1)
+
+![image](https://github.com/sarthak0613/Living-Liquidz-Wine---beer-data-analysis/assets/135547703/f2f414f4-2640-45be-8816-e7ead685a34f)
+
+- This code snippet uses BeautifulSoup to find and print the text content of HTML elements with the class "fw-500 m-0 text-dark ll-product-title."
+- It extracts and displays the names of products from the webpage.
+![image](https://github.com/sarthak0613/Living-Liquidz-Wine---beer-data-analysis/assets/135547703/b9e8287a-5006-469e-9308-69a2ff6c497b)
+
+![image](https://github.com/sarthak0613/Living-Liquidz-Wine---beer-data-analysis/assets/135547703/a2de5cec-f1c5-4a61-b0a6-36754de173c1)
+
+- This code snippet utilizes BeautifulSoup to find and print the text content of HTML elements with the class "wbr-amount fs-16."
+- It extracts and displays the Maximum Retail Prices (MRP) of products from the webpage.
+![image](https://github.com/sarthak0613/Living-Liquidz-Wine---beer-data-analysis/assets/135547703/bcc3c034-4616-4369-82af-4fd5a406c01f)
+![image](https://github.com/sarthak0613/Living-Liquidz-Wine---beer-data-analysis/assets/135547703/7fea26cd-4d39-442e-9dfa-634a38d0149d)
+
+- This code snippet employs BeautifulSoup to locate and print the text content of HTML elements with the class "btn color-black p-0 fw-500 wbr-cmp-variation-view-toggle."
+- It extracts and displays the bottle sizes of products from the webpage.
+![image](https://github.com/sarthak0613/Living-Liquidz-Wine---beer-data-analysis/assets/135547703/c76f60ca-b28c-46af-84a8-16bebde91fa8)
+
+- This code creates a Pandas DataFrame named 'domesticwine' by combining the extracted data from three lists: 'names' for product names, 'mrp' for prices, and 'bottle_size' for bottle sizes.
+- The DataFrame organizes this information into columns with the respective names: 'Name,' 'Price,' and 'Bottle size.'
+![image](https://github.com/sarthak0613/Living-Liquidz-Wine---beer-data-analysis/assets/135547703/95db6afb-119e-4e22-8d83-09ceb6e6fb51)
+![image](https://github.com/sarthak0613/Living-Liquidz-Wine---beer-data-analysis/assets/135547703/02d17268-0ec3-4de6-b1a0-abc342cb6a90)
+
+### Similarly I have created dataframes for different category of liquors from the website. The python(ipynb) file has all the code for rest of the categories.
 
 ### --Data Cleaning--
 
